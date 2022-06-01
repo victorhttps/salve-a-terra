@@ -1,0 +1,30 @@
+body{
+  background: url("../images/fundo.gif");
+}
+
+#fundo{
+  background-color: transparent;
+}
+
+#area_jogo{
+  width: 680px;
+  height: 350px;
+  margin: auto;
+  background: url("../images/fundo.png");
+  background-position: -0px;
+}
+
+#player{
+  width: 110px;
+  height: 57px;
+  background: url("../images/jogador.png");
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  animation: move_player .8s steps(7) infinite;
+}
+
+@keyframes move_player{
+  from{ background-position: 0px; }
+  to{ background-position: -762.4px; }
+}
