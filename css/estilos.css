@@ -18,7 +18,7 @@ body{
   width: 110px;
   height: 57px;
   background: url("../images/jogador.png");
-  position: absolute;
+  position: relative;
   top: 100px;
   left: 350px;
   animation: move_player .8s steps(7) infinite;
@@ -27,4 +27,13 @@ body{
 @keyframes move_player{
   from{ background-position: 0px; }
   to{ background-position: -762.4px; }
+}
+
+#player_tiro{
+  width: 41px;
+  height: 26px;
+  top: 0px;
+  left: 0px;
+  position: relative;
+  background: url('../images/tiro.png');
 }
